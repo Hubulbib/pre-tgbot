@@ -1,0 +1,24 @@
+{
+  "name": "foodbox-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for FOODBOX delivery service",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/app.js",
+    "dev": "tsx watch --clear-screen=false src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "tsx": "^4.19.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "grammy": "^1.21.1"
+  }
+}
