@@ -1,5 +1,4 @@
 import "dotenv/config";
-import "reflect-metadata";
 import { Bot } from "grammy";
 import { setupBot } from "./bot/bot.js";
 
